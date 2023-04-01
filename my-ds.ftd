@@ -1,0 +1,37 @@
+-- import: fastn-community.github.io/arya-font-typography
+
+-- component page:
+caption title:
+body body:
+children wrap:
+ftd.type-data types: $arya-font-typography.types
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 32
+padding.px: 30
+background.solid: $inherited.colors.background.base
+border-width.px: 1
+border-color: $inherited.colors.border-strong
+border-radius.px: 10
+margin-vertical.px: 10
+
+-- ftd.text: $page.title
+role: $inherited.types.heading-large
+color: $inherited.colors.text-strong
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+
+$page.body
+
+-- ftd.column:
+width: fill-container
+children: $page.wrap
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: page

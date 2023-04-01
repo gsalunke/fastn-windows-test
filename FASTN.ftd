@@ -4,6 +4,7 @@
 
 -- fastn.dependency: fifthtry.github.io/doc-site as ds
 -- fastn.dependency: fifthtry.github.io/bling as bling
+-- fastn.dependency: fastn-community.github.io/arya-font-typography
 
 -- fastn.auto-import: bling/chat as chat
 -- fastn.auto-import: ds
