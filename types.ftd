@@ -1,0 +1,18 @@
+-- import: gsalunke.github.io/fastn-windows-test/my-ds
+
+-- my-ds.page: I am a page title
+
+I am `page` component body. Body can contain multiple paragraphs, links etc.
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+Ipsum has been the industry’s standard dummy
+
+- I am a list item.
+
+- I am a list item.
+
+-- ftd.text: I am a child component of `page`
+role: $inherited.types.heading-medium
+color: $inherited.colors.text
+
+-- end: my-ds.page
